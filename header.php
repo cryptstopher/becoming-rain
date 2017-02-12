@@ -31,15 +31,23 @@
 
 <aside><?php bloginfo( 'description' ); ?></aside>
 
-<nav>
 
-<?php wp_nav_menu( array( 
-'menu_class' => 'breadcrumb' 
-) ); ?>
+<nav class="breadcrumb"> 
+
+<?php 
+
+$exclude = array(  5 );
+
+$args = array('exclude' => $exclude,
+	          'hide_empty' => true,
+	          'hierarchical' => false,
+	          'separator' => '',
+              'title_li' => '' );
+
+wp_list_categories( $args ); ?>
+
 
 </nav>
-    
-  </div>
 
 </div>
 
