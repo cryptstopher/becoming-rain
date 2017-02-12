@@ -37,12 +37,13 @@ header li {
 }
 
 .title {
-	font-family: dejabold;
-	font-size: 30px;
+	font-size: 40px;
+	letter-spacing: 13px;
+	text-transform: uppercase;
 } 
 
 aside {
-	margin:0;
+	margin:-10px 0px 0px 0px;
 	padding-bottom: 15px;
 }
 
@@ -73,6 +74,10 @@ p {
 
 em {
 	font-family: dejaem;
+}
+
+article a {
+	color:h;
 }
 
 strong {

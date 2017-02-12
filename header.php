@@ -20,13 +20,13 @@
 <header>
 
 <div class="row">
-  <div class="col-xs-8 col-md-4">
+  <div class="col-xs-12 col-md-4">
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="thumbnail">
       <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/becoming-rain/assets/images/rad.gif" alt="frakes">
     </a>
   </div>
 
-  <div class="col-xs-8">
+  <div class="col-xs-12 col-md-8">
 <div class="title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></div>
 
 <aside><?php bloginfo( 'description' ); ?></aside>
