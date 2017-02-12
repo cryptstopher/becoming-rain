@@ -1,0 +1,121 @@
+/*
+Theme Name: Becoming Rain
+Theme URI: https://github.com/stanordan/no-money
+Author: stanordan
+Author URI: https://github.com/stanordan
+Description: Deceptively simple theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: becoming-raim
+Tags: one-column, featured-images, bootstrap
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body {
+	background-color: snow;
+}
+
+.container {
+	max-width: 768px;
+	min-width: 400px;
+}
+
+header {
+	margin-top: 2em;
+}
+
+header a, a:hover {
+	color: rgba(0,0,0,.5);
+	text-decoration: none;
+}
+
+header li {
+	font-family: ubu;
+}
+
+.title {
+	font-family: dejabold;
+	font-size: 30px;
+} 
+
+aside {
+	margin:0;
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-family: dejabold;
+	font-weight: normal;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: dejabold;
+	font-weight: normal;
+}
+
+
+.lead {
+	font-family: deja;
+}
+
+a {
+	color: #555;
+	text-decoration: underline;
+}
+
+p {
+	font-family: deja;
+}
+
+em {
+	font-family: dejaem;
+}
+
+strong {
+	font-family: dejabold;
+	font-weight: normal;
+}
+
+.breadcrumb {
+	background-color: rgba(0,0,0,.075);
+}
+
+
+@font-face {font-family: ubu;
+   src: url(assets/font/Ubuntu-R.ttf);
+}
+
+@font-face {font-family: ubub;
+   src: url(assets/font/Ubuntu-B.ttf);
+}
+
+@font-face {font-family: ubui;
+   src: url(assets/font/Ubuntu-RI.ttf);
+   font-style: italic;
+}
+
+@font-face {font-family: ubum;
+   src: url(assets/font/UbuntuMono-R.ttf);
+   font-style: italic;
+}
+
+@font-face {font-family: dog;
+   src: url(assets/font/dog.ttf);
+   font-style: italic;
+}
+
+@font-face {font-family: dejabold;
+   src: url(assets/font/DejaVuSerif-Bold.ttf);
+}
+
+@font-face {font-family: deja;
+   src: url(assets/font/DejaVuSerif.ttf);
+}
+
+@font-face {font-family: dejaem;
+   src: url(assets/font/DejaVuSerif-Italic.ttf);
+}
